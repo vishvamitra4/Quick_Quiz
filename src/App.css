@@ -1,0 +1,66 @@
+
+
+.intropage {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c1c3e;
+  text-align: center;
+  color: white;
+}
+
+.intropage h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.intropage p {
+  padding: 10px;
+}
+
+.intropage button {
+  width: 109px;
+  padding: 10px;
+  border: none;
+  background-color: #3f25d1;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.intropage button:hover {
+  background-color: #ffffff;
+  color: #0c1c3e;
+}
+
+/* end of intro page csss */
+
+
+
+
+.main-content {
+  width: 100vw;
+  background-color: #0c1c3e;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+.main-content button
+{
+  margin: 10px;
+  padding: 15px;
+  width: 40vw;
+  outline: none;
+  background-color: #3da4ff;
+  color: white;
+  font-size: 1.2rem;
+
+}
